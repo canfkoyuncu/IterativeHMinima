@@ -5,6 +5,8 @@ The proposed algorithm iteratively identifies markers, considering a set of diff
 
 >C. F. Koyuncu, E. Akhan, T. Ersahin, R. Cetin-Atalay, C. Gunduz-Demir, "Iterative h-minima based marker-controlled watershed for cell nucleus segmentation", Cytometry: Part A, 89A:338-349, 2016.
 
+Please contant me for further questions at canfkoyuncu@gmail.com.
+
 ###Source code
 You need to call the `iterativeHmin` function in Matlab. This function uses Matlab codes as well as C codes, which should first be compiled by the mex compiler in Matlab.
 
@@ -25,4 +27,5 @@ in which
 Example use:
 `results = iterativeHmin('huh7f_4.jpg', 20, 10, 15, 2);`
 
-Please contant me for further questions at canfkoyuncu@gmail.com.
+<img src="./huh7f_4.jpg" title="Example fluorescence image" width=400 />
+<img src="./res4.tiff" title="Segmentation results (green boundaries) together with the actual cell centroids (red dots)" width=400 />
