@@ -28,4 +28,4 @@ Example use:
 `results = iterativeHmin('huh7f_4.jpg', 20, 10, 15, 2);`
 
 <img src="./huh7f_4.jpg" title="Example fluorescence image" width=400 />
-<img src="./res4.tiff" title="Segmentation results (green boundaries) together with the actual cell centroids (red dots)" width=400 />
+<img src="./huh7f_4_res.tiff" title="Segmentation results (green boundaries) together with the actual cell centroids (red dots)" width=400 />
