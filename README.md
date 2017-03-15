@@ -29,5 +29,5 @@ Example use:
 
 Example output:
 
-<img src="./huh7f_4.jpg" title="Example fluorescence image" width=400 />
-<img src="./huh7f_4_res.png" title="Segmentation results (green boundaries) together with the actual cell centroids (red dots)" width=400 />
+<img src="./huh7f_4.jpg" title="Example fluorescence image" width=350 />
+<img src="./huh7f_4_res.png" title="Segmentation results (green boundaries) together with the actual cell centroids (red dots)" width=350 />
