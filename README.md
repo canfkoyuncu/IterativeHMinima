@@ -7,7 +7,7 @@ The proposed algorithm iteratively identifies markers, considering a set of diff
 
 Please contant me for further questions at canfkoyuncu@gmail.com.
 
-###Source code
+### Source code
 You need to call the `iterativeHmin` function in Matlab. This function uses Matlab codes as well as C codes, which should first be compiled by the mex compiler in Matlab.
 
 For the first use of this program, please uncomment line 65 (line including compileCCodes statement) in the iterativeHmin.m file. This line calls `compileCCodes` function, which compiles the C codes by the mex compiler and creates an executable called *flooding* that will be used by the `iterativeHmin` function. After your first use, you may comment this line.
